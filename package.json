@@ -1,0 +1,15 @@
+{
+  "name": "y-connector-dat",
+  "version": "1.0.0",
+  "description": "A connector for Y.js to collaborate over dat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dat",
+    "yjs"
+  ],
+  "author": "Marcel Klehr <mklehr@gmx.net>",
+  "license": "MIT"
+}

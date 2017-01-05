@@ -46,4 +46,4 @@ require('y-connector-dat')
 ## Legal
 (c) 2017 Marcel Klehr
 
-MIT License
+MPL License

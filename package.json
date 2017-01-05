@@ -1,6 +1,6 @@
 {
   "name": "y-connector-dat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A connector for Y.js to collaborate over dat",
   "main": "index.js",
   "scripts": {

@@ -4,10 +4,7 @@ function extend (Y) {
       if (options === undefined) {
         throw new Error('Options must not be undefined!')
       }
-      if (options.dat == null) {
-        throw new Error('You must define a dat API object!')
-      }
-      if (options.site == null) {
+      if (options.room == null) {
         throw new Error('You must define a dat site!')
       }
       options.role = 'slave'

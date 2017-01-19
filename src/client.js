@@ -172,7 +172,9 @@ extend.create = function(dat, title) {
   })
 }
 
-module.exports = extend
+if (typeof module !== 'undefined') {
+  module.exports = extend
+}
 if (typeof Y !== 'undefined') {
   extend(Y)
 }

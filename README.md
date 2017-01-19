@@ -24,8 +24,8 @@ Y({
   },
   connector: {
     name: 'connector-dat'
-    , dat: window.dat // the dat API to use
-    , site: siteURL // id of the dat archive you have write access to (the user's own fork)
+  , dat: window.dat // the dat API to use (optional)
+  , room: siteURL // id of the dat you have write access to (the user's own fork; if it' someone else's the doc will be read-only)
   },
   share: {
     textarea: 'Text' // or whatever you want

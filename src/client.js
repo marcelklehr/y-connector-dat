@@ -13,8 +13,8 @@ function extend (Y) {
       options.role = 'slave'
       super(y, options)
       this.options = options
-      this.dat = options.dat
-      this.site = options.site
+      this.dat = options.dat || window.dat
+      this.site = options.room
       this.setUserId(this.site.split('/')[2])
       this.collaborators = {}
       
